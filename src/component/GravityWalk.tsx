@@ -30,7 +30,7 @@ const GravityWalk = () => {
         <CardHeader className="flex justify-center -my-5 sm:-my-8 lg:-my-10 xl:-my-12">
           <Image
             alt="Gravity Walk logo"
-            src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/gravwalklogo.png?raw=true"
+            src="https://github.com/Eason-Lee-1/siteData/blob/main/gravwalklogo.png?raw=true"
             className="scale-50"
             loading="lazy"
           />
@@ -42,14 +42,14 @@ const GravityWalk = () => {
         </div>
 
         <CardBody>
-          <div className="flex gap-2">
+          <div className="grid grid-rows-2 gap-y-2 sm:grid-cols-2 sm:gap-x-2 sm:grid-rows-1">
             <Carousel className="w-full h-auto max-w-full border-1 border-gravwalkborder rounded-lg ">
               <CarouselContent>
                 <CarouselItem>
                   <Image
                     isZoomed
                     alt="Gravity Walk photo 1"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/gw1.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/gw1.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -57,7 +57,7 @@ const GravityWalk = () => {
                   <Image
                     isZoomed
                     alt="Gravity Walk photo 2"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/gw2.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/gw2.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -65,7 +65,7 @@ const GravityWalk = () => {
                   <Image
                     isZoomed
                     alt="Gravity Walk photo 3"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/gw3.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/gw3.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -75,8 +75,12 @@ const GravityWalk = () => {
             </Carousel>
             <iframe
               className="w-full aspect-video rounded-lg border-1 border-gravwalkborder"
-              src="https://drive.google.com/file/d/1jjP5VM1WjmW1s0Kno5uSfVbXCuVNrX6z/preview"
-              allow="autoplay"
+              src="https://www.youtube.com/embed/hSjEHXkkDRY?si=FMkXwuD1jS06RpGN"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              loading="lazy"
             ></iframe>
           </div>
         </CardBody>

@@ -4,12 +4,17 @@ import { useRef } from "react";
 
 const Contact = () => {
   const form = useRef(null);
-  const currentForm = form.current;
 
   const sendEmail = (e: any) => {
     e.preventDefault();
 
-    if (currentForm == null) return;
+    const currentForm = form.current;
+
+    if (currentForm == null) {
+      alert("No form detected.");
+      return;
+    }
+
     emailjs
       .sendForm("service_rpet35x", "template_rgfsag4", currentForm, {
         publicKey: "mjepo61iQUFvAqfFH",

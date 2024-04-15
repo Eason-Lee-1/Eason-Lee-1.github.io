@@ -30,7 +30,7 @@ const AllThatIsLost = () => {
         <CardHeader className="flex justify-center -my-5 sm:-my-8 lg:-my-10 xl:-my-12">
           <Image
             alt="All That Is Lost logo"
-            src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/logoalis.png?raw=true"
+            src="https://github.com/Eason-Lee-1/siteData/blob/main/logoalis.png?raw=true"
             className="scale-50"
             loading="lazy"
           />
@@ -42,14 +42,14 @@ const AllThatIsLost = () => {
         </div>
 
         <CardBody>
-          <div className="flex gap-2">
+          <div className="grid grid-rows-2 gap-y-2 sm:grid-cols-2 sm:gap-x-2 sm:grid-rows-1">
             <Carousel className="w-full h-auto max-w-full border-1 border-white rounded-lg">
               <CarouselContent>
                 <CarouselItem>
                   <Image
                     isZoomed
                     alt="All That Is Lost Flower"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/flower.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/flower.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -57,7 +57,7 @@ const AllThatIsLost = () => {
                   <Image
                     isZoomed
                     alt="All That Is Lost Bear Trap"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/monstertrap.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/monstertrap.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -65,7 +65,7 @@ const AllThatIsLost = () => {
                   <Image
                     isZoomed
                     alt="All That Is Lost Pallet Trap"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/trap2.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/trap2.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -73,10 +73,15 @@ const AllThatIsLost = () => {
               <CarouselPrevious className=" ml-12 lg:ml-25" />
               <CarouselNext className="mr-12 lg:mr-25 scale-inherit" />
             </Carousel>
+
             <iframe
-              className="w-full aspect-video rounded-lg border-1 border-white "
-              src="https://drive.google.com/file/d/1kPwq8wrACXSbDmp5QhyJi3zc9h9HY00F/preview"
-              allow="autoplay"
+              src="https://www.youtube.com/embed/r2yjzrZwokY?si=ujGkOR-D0iSKLJ74"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              loading="lazy"
+              className="rounded-lg border-1 border-white h-full w-full aspect-video"
             ></iframe>
           </div>
         </CardBody>

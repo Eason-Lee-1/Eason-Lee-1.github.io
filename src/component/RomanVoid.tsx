@@ -33,7 +33,7 @@ const RomanVoid = () => {
         <CardHeader className="flex justify-center -my-5 sm:-my-8 lg:-my-10 xl:-my-12">
           <Image
             alt="Roman Void Logo"
-            src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/roman.png?raw=true"
+            src="https://github.com/Eason-Lee-1/siteData/blob/main/roman.png?raw=true"
             className="scale-50"
             loading="lazy"
           />
@@ -45,14 +45,14 @@ const RomanVoid = () => {
         </div>
 
         <CardBody>
-          <div className="flex gap-2">
+          <div className="grid grid-rows-2 gap-y-2 sm:grid-cols-2 sm:gap-x-2 sm:grid-rows-1">
             <Carousel className="w-full h-auto max-w-full border-white ">
               <CarouselContent>
                 <CarouselItem>
                   <Image
                     isZoomed
                     alt="Roman Void Start Location"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/roman%202.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/roman%202.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -60,7 +60,7 @@ const RomanVoid = () => {
                   <Image
                     isZoomed
                     alt="Roman Void Fighting"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/roman%203.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/roman%203.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -68,7 +68,7 @@ const RomanVoid = () => {
                   <Image
                     isZoomed
                     alt="Roman Void Boss Battle"
-                    src="https://github.com/Eason-Lee-1/Eason-Lee-1.github.io/blob/main/roman%204.png?raw=true"
+                    src="https://github.com/Eason-Lee-1/siteData/blob/main/roman%204.png?raw=true"
                     loading="lazy"
                   />
                 </CarouselItem>
@@ -77,9 +77,13 @@ const RomanVoid = () => {
               <CarouselNext className="mr-12 lg:mr-25 scale-inherit" />
             </Carousel>
             <iframe
-              className="w-full aspect-video rounded-lg "
-              src="https://drive.google.com/file/d/12Gwte-_uFwiKdZhVlZw9rMrBg1KUFO8a/preview"
-              allow="autoplay"
+              src="https://www.youtube.com/embed/yB7J6h6Dfgk?si=irn8KyXsnuzmN79C"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+              loading="lazy"
+              className="rounded-lg h-full w-full aspect-video"
             ></iframe>
           </div>
         </CardBody>
