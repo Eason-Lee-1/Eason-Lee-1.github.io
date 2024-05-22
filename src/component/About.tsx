@@ -2,7 +2,7 @@ import { Card, Textarea, Button, Image } from "@nextui-org/react";
 
 const goToGitHub = () => {
   const newWindow = window.open(
-    "https://github.com/Eason-Lee-1",
+    "https://github.com/Precipitating",
     "_blank",
     "noopener,noreferrer"
   );

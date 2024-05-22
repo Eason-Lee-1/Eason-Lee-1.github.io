@@ -3,6 +3,14 @@ import AllThatIsLost from "./AllThatIsLost";
 import GravityWalk from "./GravityWalk";
 import { Card, Divider } from "@nextui-org/react";
 
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
 const Portfolio = () => {
   return (
     <>
@@ -28,11 +36,15 @@ const Portfolio = () => {
           Group Projects
         </h2>
         <Card isBlurred className="mx-5 mt-5 bg-inherit">
-          <RomanVoid />
-          <Divider />
-          <AllThatIsLost />
-          <Divider />
-          <GravityWalk />
+          <Carousel>
+            <CarouselContent>
+              <CarouselItem> <RomanVoid /> </CarouselItem>
+              <CarouselItem> <AllThatIsLost /> </CarouselItem>
+              <CarouselItem> <GravityWalk /> </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious className=" ml-12 lg:ml-25" />
+            <CarouselNext className="mr-12 lg:mr-25 scale-inherit"  />
+          </Carousel>
         </Card>
       </section>
     </>
