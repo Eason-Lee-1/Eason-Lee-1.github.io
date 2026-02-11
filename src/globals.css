@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap");
+@import "tailwindcss";
+@import "@heroui/styles";
+
+
+@theme {
+  --breakpoint-3xl: 1700px;
+  --breakpoint-4xl: 160rem;
+  --background-image-darkhold: url(https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/bg%203.png);
+  --background-image-js: url(https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/bg.png);
+  --background-image-typefighter: url(https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/typefighterbg.png);
+  --background-image-mimic: url(https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/black%20mimic.png);
+  --color-gravwalkborder: "#71af4c";
+  --color-gravwalkbg: "#2e2e2e";
+}
+
+:root,
+.dark,
+.default,
+[data-theme="dark"],
+[data-theme="default"] {
+  color-scheme: dark;
+  /* Theme Colors (Dark Mode) */
+  --accent: oklch(62.04% 0.195 263.26);
+  --accent-foreground: oklch(99.11% 0 0);
+  --background: oklch(12% 0.02 263.26);
+  --border: oklch(28% 0.02 263.26);
+  --danger: oklch(59.4% 0.2046 25.76);
+  --danger-foreground: oklch(99.11% 0 0);
+  --default: oklch(27.4% 0.02 263.26);
+  --default-foreground: oklch(99.11% 0 0);
+  --field-background: oklch(21.03% 0.04 263.26);
+  --field-foreground: oklch(99.11% 0.02 263.26);
+  --field-placeholder: oklch(70.5% 0.04 263.26);
+  --focus: oklch(62.04% 0.195 263.26);
+  --foreground: oklch(99.11% 0.02 263.26);
+  --muted: oklch(70.5% 0.04 263.26);
+  --overlay: oklch(21.03% 0.04 263.26);
+  --overlay-foreground: oklch(99.11% 0.02 263.26);
+  --scrollbar: oklch(70.5% 0.02 263.26);
+  --segment: oklch(39.64% 0.02 263.26);
+  --segment-foreground: oklch(99.11% 0.02 263.26);
+  --separator: oklch(25% 0.02 263.26);
+  --success: oklch(73.29% 0.2012 151.94);
+  --success-foreground: oklch(21.03% 0.0059 151.94);
+  --surface: oklch(21.03% 0.04 263.26);
+  --surface-foreground: oklch(99.11% 0.02 263.26);
+  --surface-secondary: oklch(25.7% 0.03 263.26);
+  --surface-secondary-foreground: oklch(99.11% 0.02 263.26);
+  --surface-tertiary: oklch(27.21% 0.03 263.26);
+  --surface-tertiary-foreground: oklch(99.11% 0.02 263.26);
+  --warning: oklch(82.03% 0.1444 77.47);
+  --warning-foreground: oklch(21.03% 0.0059 77.47);
+  --font-sans: "Kode Mono", sans-serif;
+
+}
+
+
+
+
