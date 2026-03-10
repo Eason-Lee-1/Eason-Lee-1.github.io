@@ -18,6 +18,7 @@ import RomanVoid from "./GroupProject/RomanVoid";
 import AllThatIsLost from "./GroupProject/AllThatIsLost";
 import GravityWalk from "./GroupProject/GravityWalk";
 import { forwardRef, useState, useEffect } from "react";
+import PlayerWatch2 from "./Project/PlayerWatch2";
 
 const pauseVideos = (className: string) => {
   const containers = document.querySelectorAll(className);
@@ -110,6 +111,9 @@ export const Projects = forwardRef<HTMLElement>((_, ref) => {
               </CarouselItem>
               <CarouselItem>
                 <PlayerWatch />
+              </CarouselItem>
+              <CarouselItem>
+                <PlayerWatch2 />
               </CarouselItem>
               <CarouselItem>
                 <AIShooter />
