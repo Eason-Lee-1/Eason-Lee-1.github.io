@@ -19,7 +19,7 @@ const Bomba = () => {
         <Card.Header>
           <Image
             alt="BombaLogo"
-            src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/bombtitle2.png"
+            src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/bombtitle2.png"
             className="scale-100 xl:scale-90 -mb-1 lg:-mb-4 2xl:-mb-6 duration-200 ease-in-out "
             loading="eager"
           />
@@ -41,21 +41,21 @@ const Bomba = () => {
                 <CarouselItem>
                   <Image
                     alt="Bomba1"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/uno.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/uno.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Bomba2l"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/dos.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/dos.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Bomba3"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/tres.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/tres.png"
                     loading="lazy"
                   />
                 </CarouselItem>

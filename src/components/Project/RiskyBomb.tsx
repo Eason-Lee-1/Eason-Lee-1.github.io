@@ -19,7 +19,7 @@ const RiskyBomb = () => {
         <Card.Header>
           <Image
             alt="RiskyLogo"
-            src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/riskylogo.png"
+            src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/riskylogo.png"
             className="scale-90 lg:scale-70  lg:-mb-4 2xl:-mb-6 duration-200 ease-in-out "
             loading="eager"
           />
@@ -41,21 +41,21 @@ const RiskyBomb = () => {
                 <CarouselItem>
                   <Image
                     alt="Risky1"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/risky1.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/risky1.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Risky2"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/risky2.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/risky2.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Risky3"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/risky3.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/risky3.png"
                     loading="lazy"
                   />
                 </CarouselItem>

@@ -19,7 +19,7 @@ const TypeFighter = () => {
         <Card.Header>
           <Image
             alt="TypeFighterLogo"
-            src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/typefighter%20logo.png"
+            src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/typefighter%20logo.png"
             className="scale-100 lg:scale-80 xl:scale-70 duration-200 xl:-mb-8 ease-in-out "
             loading="eager"
           />
@@ -37,21 +37,21 @@ const TypeFighter = () => {
                 <CarouselItem>
                   <Image
                     alt="Typefighter1"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/typefighter.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/typefighter.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Typefighter2"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/typefighter2.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/typefighter2.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Typefighter3"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/typefighter3.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/typefighter3.png"
                     loading="lazy"
                   />
                 </CarouselItem>

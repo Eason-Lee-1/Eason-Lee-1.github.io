@@ -19,6 +19,7 @@ import AllThatIsLost from "./GroupProject/AllThatIsLost";
 import GravityWalk from "./GroupProject/GravityWalk";
 import { forwardRef, useState, useEffect } from "react";
 import PlayerWatch2 from "./Project/PlayerWatch2";
+import QuickDraw from "./Project/QuickDraw";
 
 const pauseVideos = (className: string) => {
   const containers = document.querySelectorAll(className);
@@ -87,6 +88,9 @@ export const Projects = forwardRef<HTMLElement>((_, ref) => {
             <CarouselContent>
               <CarouselItem>
                 <EscapeGPT />
+              </CarouselItem>
+              <CarouselItem>
+                <QuickDraw />
               </CarouselItem>
               <CarouselItem>
                 <JunctionStreet />

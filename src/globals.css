@@ -6,10 +6,10 @@
 @theme {
   --breakpoint-3xl: 1700px;
   --breakpoint-4xl: 160rem;
-  --background-image-darkhold: url(https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/bg%203.png);
-  --background-image-js: url(https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/bg.png);
-  --background-image-typefighter: url(https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/typefighterbg.png);
-  --background-image-mimic: url(https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/black%20mimic.png);
+  --background-image-darkhold: url(https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/bg%203.png);
+  --background-image-js: url(https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/bg.png);
+  --background-image-typefighter: url(https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/typefighterbg.png);
+  --background-image-mimic: url(https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/black%20mimic.png);
   --color-gravwalkborder: "#71af4c";
   --color-gravwalkbg: "#2e2e2e";
 }

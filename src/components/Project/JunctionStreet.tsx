@@ -19,7 +19,7 @@ const JunctionStreet = () => {
         <Card.Header>
           <Image
             alt="JSLogo"
-            src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/logonobg.png"
+            src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/logonobg.png"
             className="scale-100 xl:scale-90 -mb-3 lg:-mb-7 2xl:-mb-15 duration-200 ease-in-out "
             loading="eager"
           />
@@ -37,21 +37,21 @@ const JunctionStreet = () => {
                 <CarouselItem>
                   <Image
                     alt="JS1"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/js1.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/js1.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="JS2"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/js3.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/js3.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="JS3"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/js4.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/js4.png"
                     loading="lazy"
                   />
                 </CarouselItem>

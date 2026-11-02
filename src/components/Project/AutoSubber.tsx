@@ -19,7 +19,7 @@ const AutoSubber = () => {
         <Card.Header>
           <Image
             alt="AutosubberLogo"
-            src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/AutoSubber.png"
+            src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/AutoSubber.png"
             className="scale-100 lg:scale-80 duration-200 xl:-mb-8 ease-in-out "
             loading="eager"
           />
@@ -37,21 +37,21 @@ const AutoSubber = () => {
                 <CarouselItem>
                   <Image
                     alt="Autosubber1"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/autosubber1.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/autosubber1.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Autosubber2"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/autosubber%202.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/autosubber%202.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Autosubber3"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/autosubber%203.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/autosubber%203.png"
                     loading="lazy"
                   />
                 </CarouselItem>

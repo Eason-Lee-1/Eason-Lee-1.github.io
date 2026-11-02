@@ -19,7 +19,7 @@ const PlayerWatch = () => {
         <Card.Header>
           <Image
             alt="PlayerWatchLogo"
-            src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/playerwatch%20logo.png"
+            src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/playerwatch%20logo.png"
             className="scale-100 sm:scale-80 xl:scale-70 duration-200 xl:-mb-8 ease-in-out "
             loading="eager"
           />
@@ -37,21 +37,21 @@ const PlayerWatch = () => {
                 <CarouselItem>
                   <Image
                     alt="PlayerWatch1"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/playerwatch%201.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/playerwatch%201.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="PlayerWatch2"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/playerwatch%202.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/playerwatch%202.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="PlayerWatch3"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/playerwatch%203.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/playerwatch%203.png"
                     loading="lazy"
                   />
                 </CarouselItem>

@@ -19,7 +19,7 @@ const Mimic = () => {
         <Card.Header>
           <Image
             alt="MimicLogo"
-            src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/mimic%20logo.png"
+            src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/mimic%20logo.png"
             className="scale-100 lg:scale-80 xl:scale-70 duration-200 xl:-mb-8 ease-in-out "
             loading="eager"
           />
@@ -37,21 +37,21 @@ const Mimic = () => {
                 <CarouselItem>
                   <Image
                     alt="Mimic1"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/mimic%201.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/mimic%201.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Mimic2"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/mimic%202.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/mimic%202.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Mimic3"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/mimic%203.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/mimic%203.png"
                     loading="lazy"
                   />
                 </CarouselItem>

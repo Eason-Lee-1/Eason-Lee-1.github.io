@@ -19,7 +19,7 @@ const Darkhold = () => {
         <Card.Header>
           <Image
             alt="DarkholdLogo"
-            src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/DARK%20HOLD%20LOGO.png"
+            src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/DARK%20HOLD%20LOGO.png"
             className="scale-70 xl:scale-60 duration-200 xl:-mb-8 ease-in-out "
             loading="eager"
           />
@@ -45,21 +45,21 @@ const Darkhold = () => {
                 <CarouselItem>
                   <Image
                     alt="Darkhold1"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/med%201.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/med%201.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Darkhold2"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/med%202.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/med%202.png"
                     loading="lazy"
                   />
                 </CarouselItem>
                 <CarouselItem>
                   <Image
                     alt="Darkhold2"
-                    src="https://raw.githubusercontent.com/Eason-Lee-1/siteData/refs/heads/main/med%203.png"
+                    src="https://cdn.jsdelivr.net/gh/Eason-Lee-1/siteData@main/med%203.png"
                     loading="lazy"
                   />
                 </CarouselItem>
